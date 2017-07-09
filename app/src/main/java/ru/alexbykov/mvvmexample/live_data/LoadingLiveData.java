@@ -2,7 +2,7 @@ package ru.alexbykov.mvvmexample.live_data;
 
 import android.arch.lifecycle.LiveData;
 
-import ru.alexbykov.mvvmexample.view_model.LoadingViewModel;
+import ru.alexbykov.mvvmexample.repository.models.Loading;
 
 
 /**
@@ -13,18 +13,18 @@ import ru.alexbykov.mvvmexample.view_model.LoadingViewModel;
  * @author Alex Bykov
  *         You can contact me at me@alexbykov.ru
  */
-public class LoadingLiveData extends LiveData<LoadingViewModel> {
+public class LoadingLiveData extends LiveData<Loading> {
 
 
-    private LoadingViewModel progressBar;
+    private Loading loading;
 
     public LoadingLiveData() {
-        progressBar = new LoadingViewModel();
+        loading = new Loading();
     }
 
 
     public void showLoading(boolean isLoading) {
-        progressBar.setProgress(isLoading);
-        setValue(progressBar);
+        loading.setProgress(isLoading);
+        setValue(loading);
     }
 }

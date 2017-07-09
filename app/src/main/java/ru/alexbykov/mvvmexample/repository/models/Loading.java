@@ -1,4 +1,4 @@
-package ru.alexbykov.mvvmexample.view_model;
+package ru.alexbykov.mvvmexample.repository.models;
 
 /**
  * Date: 09.07.2017
@@ -8,7 +8,7 @@ package ru.alexbykov.mvvmexample.view_model;
  * @author Alex Bykov
  *         You can contact me at me@alexbykov.ru
  */
-public class LoadingViewModel {
+public class Loading {
 
     private boolean isLoading;
 

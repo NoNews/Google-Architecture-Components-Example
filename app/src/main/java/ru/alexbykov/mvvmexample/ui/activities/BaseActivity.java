@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
-import ru.alexbykov.mvvmexample.view_model.LoadingViewModel;
+import ru.alexbykov.mvvmexample.repository.models.Loading;
 
 /**
  * Date: 09.07.2017
@@ -25,7 +25,7 @@ public abstract class BaseActivity extends LifecycleActivity {
     protected ProgressBar progressBar;
     protected ViewGroup ltData;
 
-    public void showLoading(@NonNull LoadingViewModel loading) {
+    public void showLoading(@NonNull Loading loading) {
         if (loading.isLoading()) showAndHide(progressBar, ltData);
         else showAndHide(ltData, progressBar);
     }

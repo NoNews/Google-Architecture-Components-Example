@@ -6,6 +6,7 @@ import android.arch.lifecycle.ViewModel;
 import ru.alexbykov.mvvmexample.UserViewModelState;
 import ru.alexbykov.mvvmexample.live_data.LoadingLiveData;
 import ru.alexbykov.mvvmexample.live_data.UserLiveData;
+import ru.alexbykov.mvvmexample.repository.models.Loading;
 import ru.alexbykov.mvvmexample.repository.models.UserDTO;
 
 /**
@@ -32,7 +33,7 @@ public class ProfileViewModel extends ViewModel implements UserViewModelState {
     }
 
 
-    public LiveData<LoadingViewModel> waitLoading() {
+    public LiveData<Loading> waitLoading() {
         return loadingLiveData;
     }
 
