@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
 
-import ru.alexbykov.mvvmexample.repository.models.Loading;
+import ru.alexbykov.mvvmexample.models.Loading;
 
 /**
  * Date: 09.07.2017

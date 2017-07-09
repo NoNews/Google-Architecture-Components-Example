@@ -1,4 +1,4 @@
-package ru.alexbykov.mvvmexample.repository.models;
+package ru.alexbykov.mvvmexample.models;
 
 /**
  * Date: 09.07.2017

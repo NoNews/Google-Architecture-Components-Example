@@ -1,4 +1,4 @@
-package ru.alexbykov.mvvmexample;
+package ru.alexbykov.mvvmexample.repository.user;
 
 import ru.alexbykov.mvvmexample.repository.models.UserDTO;
 

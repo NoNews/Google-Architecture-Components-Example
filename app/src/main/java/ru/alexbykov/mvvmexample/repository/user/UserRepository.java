@@ -1,6 +1,5 @@
-package ru.alexbykov.mvvmexample.repository;
+package ru.alexbykov.mvvmexample.repository.user;
 
-import ru.alexbykov.mvvmexample.GetUserCallback;
 import ru.alexbykov.mvvmexample.repository.models.UserDTO;
 
 /**

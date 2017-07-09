@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import ru.alexbykov.mvvmexample.R;
 import ru.alexbykov.mvvmexample.repository.models.UserDTO;
-import ru.alexbykov.mvvmexample.view_model.ProfileViewModel;
+import ru.alexbykov.mvvmexample.business.view_model.user.UserViewModel;
 
 public class UserActivity extends BaseActivity {
 
@@ -30,7 +30,7 @@ public class UserActivity extends BaseActivity {
     }
 
     private void setupViewModel() {
-        ProfileViewModel viewModel = new ProfileViewModel();
+        UserViewModel viewModel = new UserViewModel();
         viewModel.waitLoading().observe(this, this::showLoading);
         viewModel.waitUserData().observe(this, this::setupUser);
     }

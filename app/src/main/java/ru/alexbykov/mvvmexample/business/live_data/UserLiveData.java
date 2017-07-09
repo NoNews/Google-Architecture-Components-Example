@@ -1,11 +1,11 @@
-package ru.alexbykov.mvvmexample.live_data;
+package ru.alexbykov.mvvmexample.business.live_data;
 
 import android.arch.lifecycle.LiveData;
 
-import ru.alexbykov.mvvmexample.GetUserCallback;
-import ru.alexbykov.mvvmexample.UserViewModelState;
+import ru.alexbykov.mvvmexample.repository.user.GetUserCallback;
+import ru.alexbykov.mvvmexample.business.view_model.user.UserViewModelState;
 import ru.alexbykov.mvvmexample.repository.models.UserDTO;
-import ru.alexbykov.mvvmexample.repository.UserRepository;
+import ru.alexbykov.mvvmexample.repository.user.UserRepository;
 
 /**
  * Date: 09.07.2017

@@ -1,8 +1,8 @@
-package ru.alexbykov.mvvmexample.live_data;
+package ru.alexbykov.mvvmexample.business.live_data;
 
 import android.arch.lifecycle.LiveData;
 
-import ru.alexbykov.mvvmexample.repository.models.Loading;
+import ru.alexbykov.mvvmexample.models.Loading;
 
 
 /**

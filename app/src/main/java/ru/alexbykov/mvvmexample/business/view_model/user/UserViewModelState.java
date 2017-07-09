@@ -1,4 +1,4 @@
-package ru.alexbykov.mvvmexample;
+package ru.alexbykov.mvvmexample.business.view_model.user;
 
 /**
  * Date: 09.07.2017
